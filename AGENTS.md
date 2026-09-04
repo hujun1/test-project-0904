@@ -18,6 +18,7 @@
 - [x] 阶段三：测试 `shutdown` 技能（更新 handoff.md 并 git commit）
 - [x] 阶段四：补建 L2 / L3（如环境支援）
 - [x] 阶段五：跨 Agent 互通验证（本机 pi → handoff → 任意 Agent 接手皆可读）
+- [x] 阶段六：补 `README.md`（人类友好导览档，跟既有三个档案分工互补）
 
 ## 文件夹结构
 
@@ -25,6 +26,7 @@
 ```
 test-project-0904/
 ├── .gitignore           # git 排除清单（L2）
+├── README.md            # 人类友好导览（第一站）
 ├── AGENTS.md            # 专案蓝图（每个 session 都读）
 ├── handoff.md           # 交接档（开工读、收工写）
 └── 专案工作流程.md       # Obsidian vault 详细笔记（L3）
