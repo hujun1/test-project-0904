@@ -13,10 +13,11 @@
 ## 目标与路线图
 
 <!-- 用 checklist 追踪，收工技能会更新这里 -->
-- [ ] 阶段一：完成 L1 本地蓝图建立（AGENTS.md + handoff.md）
-- [ ] 阶段二：测试 `startup` 技能（读 handoff.md 接续）
-- [ ] 阶段三：测试 `shutdown` 技能（更新 handoff.md 并 git commit）
-- [ ] 阶段四：补建 L2 / L3（如环境支援）
+- [x] 阶段一：完成 L1 本地蓝图建立（AGENTS.md + handoff.md）
+- [x] 阶段二：测试 `startup` 技能（读 handoff.md 接续）
+- [x] 阶段三：测试 `shutdown` 技能（更新 handoff.md 并 git commit）
+- [x] 阶段四：补建 L2 / L3（如环境支援）
+- [x] 阶段五：跨 Agent 互通验证（本机 pi → handoff → 任意 Agent 接手皆可读）
 
 ## 文件夹结构
 

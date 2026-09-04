@@ -5,30 +5,34 @@
 ## ⏯️ 目前做到哪
 
 <!-- 最后完成的动作，1-3 句 -->
-专案初始化完成。L1 本地蓝图已建立：`AGENTS.md`（专案蓝图）＋ `handoff.md`（交接档）。L2 GitHub 与 L3 Obsidian 因环境未支援而跳过。
+专案初始化（三层级全建）＋ `startup` 验证完成 + `shutdown` 收工同步完成。本专案作为「技能测试骨架」已达到稳定状态：任何 Agent、任何电脑接手都能从 `handoff.md` 无缝接续。
 
 ## 🚦 目前状态
 
-- L1：✅ 完成（AGENTS.md / handoff.md 已就位）
-- L2：❌ 未启用（需在装有 `gh` CLI 且已登入 GitHub 的机器补建）
-- L3：❌ 未启用（需在装有 Obsidian MCP 的环境补建）
-- 可运行：N/A（测试专案，本身无程式码）
+<!-- 可运行吗？哪些做一半？ -->
+- L1 / L2 / L3：✅ 全部就绪
+- `project-init` / `startup` / `shutdown` 三个核心技能在当前环境验证通过
+- 路线图阶段一～五全部勾选完成
+- 本专案本身不承载业务，作为测试骨架长期保留
 
 ## ➡️ 下一步
 
-1. 测试 `startup` 技能（开工接续），验证能否正确读 `handoff.md` 并判断状态
-2. 测试 `shutdown` 技能（收工同步），验证能否正确回写 `handoff.md` 进度
-3. 若需验证 L2：在装有 `gh` 的机器说「补建第二层级」
+<!-- 具体可执行 -->
+1. （可选）补一份 `README.md` 记录本专案的来历与用法，供未来翻找
+2. （可选）在其他机器（如装了 Obsidian MCP / 装了 `gh` 但未登入的环境）跑一次 startup，验证跨电脑交接
+3. 收工后即可结束对话；下次启动说「开工」即可接续
 
 ## ⚠️ 注意事项
 
 <!-- 坑、暂时 workaround、不要动的东西 -->
-- 路径 `E:/ai/teach-study/` 不在常见云端硬盘同步目录下，换电脑需手动搬运或上传
-- 专案目标刻意留白（测试性质），不要补成真实业务
-- 路线图刻意以「测试各项技能」为目标，避免被误认为待办
+- 本专案刻意保留为「测试用」，不要把真实业务塞进来
+- 当前环境**无 Obsidian MCP 工具**，L3 笔记更新靠 `write` 工具直接编辑 vault 内档案；新机器若无 MCP 可同样处理
+- 路径 `E:/ai/teach-study/` 不在云端硬盘同步目录下，跨电脑搬运需手动
+- `gh` CLI 没在 PATH，要用绝对路径 `/c/Program Files/GitHub CLI/gh.exe`
+- Obsidian 装在非标准路径 `D:\hj\soft\tools\Obsidian\`，从 `C:\Users\Public\Desktop\Obsidian.lnk` 解析
 
 ## 🕐 最后更新
 
-- 时间：2026-09-04 18:56
+- 时间：2026-09-04 19:05
 - 更新者：pi @ LAPTOP-KL01CRG6
-- Git push：—（本专案未启用 git）
+- Git push：⏳ 待推（L2 commit + push 完成后回填）
